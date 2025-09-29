@@ -7,7 +7,7 @@ interface IRadbotV1AgentLancher {
         view
         returns (
             address owner,
-            address deployer,
+            uint256 mintPrice,
             uint256 maxAgents,
             bytes32 name,
             bytes16 symbol,
