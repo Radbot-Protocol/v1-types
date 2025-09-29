@@ -13,6 +13,7 @@ interface IRadbotV1AgentLancher {
             bytes16 symbol,
             string memory description,
             string memory baseURI,
-            uint16 royalty
+            uint16 royalty,
+            address factory
         );
 }
