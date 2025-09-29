@@ -2,5 +2,5 @@
 pragma solidity ^0.8.0;
 
 interface IRadbotV1MintCallback {
-    function onAgentV1Mint(bytes calldata data) external;
+    function onAgentV1Mint(address token, bytes calldata data) external;
 }
