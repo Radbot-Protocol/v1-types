@@ -3,12 +3,12 @@ pragma solidity ^0.8.0;
 
 interface IRadbotV1FactoryAction {
     function createAgent(
+        address owner,
+        uint256 maxAgents,
         bytes32 name,
         bytes16 symbol,
-        string calldata description,
-        address owner,
-        string calldata baseURI,
-        uint16 royalty,
-        uint256 maxAgents
+        string memory description,
+        string memory baseURI,
+        uint16 royalty
     ) external returns (address);
 }
