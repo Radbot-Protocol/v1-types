@@ -7,5 +7,5 @@ interface IRadbotV1AgentDeployerAction is IRadbotV1AgentTypes {
     function traitsUpdate(
         AgentTraits calldata traits,
         uint256 tokenId
-    ) external returns (uint256);
+    ) external;
 }
