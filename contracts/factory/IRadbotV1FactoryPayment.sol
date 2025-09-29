@@ -3,4 +3,6 @@ pragma solidity ^0.8.0;
 
 interface IRadbotV1FactoryPayment {
     function payments(address token) external view returns (bool);
+
+    function getPayments() external view returns (address[] memory);
 }
