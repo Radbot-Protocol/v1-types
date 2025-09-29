@@ -13,5 +13,6 @@ interface IRadbotV1Factory is
     IRadbotV1FactoryImmutable,
     IRadbotV1FactoryOwnerAction,
     IRadbotV1FactoryState,
-    IRadbotV1AgentLancher
+    IRadbotV1AgentLancher,
+    IRadbotV1FactoryPayment
 {}
