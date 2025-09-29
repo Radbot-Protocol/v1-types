@@ -7,9 +7,9 @@ interface IRadbotV1AgentTypes {
         address deployer;
         uint256 maxAgents;
         bytes32 name;
+        bytes16 symbol;
         string description;
         string baseURI;
-        bytes16 symbol;
         uint16 royalty;
     }
 
