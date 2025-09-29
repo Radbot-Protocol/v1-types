@@ -9,6 +9,7 @@ interface IRadbotV1FactoryAction {
         bytes16 symbol,
         string memory description,
         string memory baseURI,
+        uint256 mintPrice,
         uint16 royalty
     ) external returns (address);
 }
