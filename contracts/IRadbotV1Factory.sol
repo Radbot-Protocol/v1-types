@@ -5,10 +5,12 @@ import {IRadbotV1FactoryAction} from "./factory/IRadbotV1FactoryAction.sol";
 import {IRadbotV1FactoryImmutable} from "./factory/IRadbotV1FactoryImmutable.sol";
 import {IRadbotV1FactoryOwnerAction} from "./factory/IRadbotV1FactoryOwnerAction.sol";
 import {IRadbotV1FactoryState} from "./factory/IRadbotV1FactoryState.sol";
+import {IRadbotV1AgentLancher} from "./factory/IRadbotV1AgentLancher.sol";
 
 interface IRadbotV1Factory is
     IRadbotV1FactoryAction,
     IRadbotV1FactoryImmutable,
     IRadbotV1FactoryOwnerAction,
-    IRadbotV1FactoryState
+    IRadbotV1FactoryState,
+    IRadbotV1AgentLancher
 {}
