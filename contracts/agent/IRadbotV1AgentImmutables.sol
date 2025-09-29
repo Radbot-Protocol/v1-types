@@ -4,5 +4,5 @@ pragma solidity ^0.8.0;
 interface IRadbotV1AgentImmutables {
     function maxAgents() external view returns (uint256);
 
-    function deployer() external view returns (address);
+    function mintPrice() external view returns (uint256);
 }

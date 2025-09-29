@@ -3,6 +3,4 @@ pragma solidity ^0.8.0;
 
 interface IRadbotV1AgentState {
     function balance(address token) external view returns (uint256);
-
-    function mintPrice() external view returns (uint256);
 }
