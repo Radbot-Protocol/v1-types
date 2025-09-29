@@ -7,6 +7,7 @@ import {IRadbotV1FactoryOwnerAction} from "./factory/IRadbotV1FactoryOwnerAction
 import {IRadbotV1FactoryState} from "./factory/IRadbotV1FactoryState.sol";
 import {IRadbotV1AgentLauncher} from "./factory/IRadbotV1AgentLauncher.sol";
 import {IRadbotV1FactoryPayment} from "./factory/IRadbotV1FactoryPayment.sol";
+import {IRadbotV1FactoryEvents} from "./factory/IRadbotV1FactoryEvents.sol";
 
 interface IRadbotV1Factory is
     IRadbotV1FactoryAction,
@@ -14,5 +15,6 @@ interface IRadbotV1Factory is
     IRadbotV1FactoryOwnerAction,
     IRadbotV1FactoryState,
     IRadbotV1AgentLauncher,
-    IRadbotV1FactoryPayment
+    IRadbotV1FactoryPayment,
+    IRadbotV1FactoryEvents
 {}
