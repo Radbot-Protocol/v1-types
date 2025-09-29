@@ -5,4 +5,6 @@ interface IRadbotV1AgentImmutables {
     function maxAgents() external view returns (uint256);
 
     function mintPrice() external view returns (uint256);
+
+    function factory() external view returns (address);
 }
