@@ -14,5 +14,5 @@ interface IRadbotV1DeployerAction {
         address token,
         uint256 agentId,
         bytes calldata data
-    ) external returns (bool);
+    ) external returns (address);
 }
