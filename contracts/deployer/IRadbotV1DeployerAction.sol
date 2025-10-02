@@ -7,12 +7,12 @@ interface IRadbotV1DeployerAction {
         address token,
         uint256 agentId,
         bytes calldata data
-    ) external returns (address);
+    ) external;
 
     function stop(
         address to,
         address token,
         uint256 agentId,
         bytes calldata data
-    ) external returns (address);
+    ) external;
 }
