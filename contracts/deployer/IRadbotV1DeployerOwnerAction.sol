@@ -5,4 +5,6 @@ interface IRadbotV1DeployerOwnerAction {
     function initDeployer(address factory) external;
 
     function setFee(uint256 fee) external;
+
+    function withdrawFees(address token, address to, uint256 amount) external;
 }
