@@ -12,7 +12,12 @@ interface IRadbotV1UserAction is IRadbotV1UserTypes {
     /// @notice Creates a new user with the specified username
     /// @param _user The address of the user to create
     /// @param _username The username for the user (16 bytes max)
-    function createUser(address _user, bytes16 _username) external;
+    /// @param _referrer The address of the referrer
+    function createUser(
+        address _user,
+        bytes16 _username,
+        address _referrer
+    ) external;
 
     /// @notice Returns the total number of registered users
     /// @return The total count of registered users
