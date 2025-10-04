@@ -3,15 +3,6 @@ pragma solidity ^0.8.0;
 
 interface IRadbotV1ReferralAction {
     /**
-     * @notice Sets a referral relationship between a user and referrer
-     * @dev Establishes a one-time referral relationship
-     * @param _user Address of the user being referred
-     * @param _referrer Address of the referrer
-     * @custom:emits ReferralSet event
-     */
-    function refer(address _user, address _referrer) external;
-
-    /**
      * @notice Gets the referrer address for a specific user
      * @param _user Address of the user
      * @return Address of the referrer (zero address if no referrer)
