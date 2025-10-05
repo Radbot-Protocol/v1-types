@@ -5,6 +5,7 @@ interface IRadbotV1StopCallback {
     function onAgentV1Stop(
         address to,
         address token,
+        uint256 agentId,
         bytes calldata data
     ) external;
 }
